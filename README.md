@@ -38,7 +38,7 @@ player radio:"cheer" replace<br>
     <li><strong>语音电台:</strong> 默认按 <code>Z</code> 然后按下 <code>3</code> 即可播放嘲笑语音.</li>
 </ul>
 <ul>
-    <li><strong>!cheer:</strong> Players can cheer using <code>!cheer</code>in chat.</li>
+    <li><strong>!cheer:</strong> Players can cheer using <code>!cheer</code> in chat.</li>
     <li><strong>player_radio:</strong> "default radar radio cheer" press <code>Z</code> and choose <code>3</code> can play cheer.</li>
 </ul>
     <li><strong>[!提示NOTE]
