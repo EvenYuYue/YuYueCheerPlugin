@@ -25,7 +25,7 @@ player radio:"cheer" replace<br>
 * 解压缩到你的服务端 `game/csgo/` 位置,
 
 * :exclamation: 查看 `game/csgo/addons/ccounterstrikesharp/configs/plugins/YuYueCheerPlugin/YuYueCheerPlugin.json` 设置插件基础设置.
-* 
+
 * Download the [latest release](https://github.com/EvenYuYue/YuYueCheerPlugin/releases),
 
 * Unzip into your servers `game/csgo/` directory,
