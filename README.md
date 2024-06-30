@@ -3,14 +3,16 @@
 YuYueCheerPlugin is a "simple" play sound effects plugin. CS2 Cheer plugin using CounterStrikeSharp.
 
 # 内容<br>Features
-笑声文件.vsnd15个<br>
-冷却时间设置<br>
-中心提示信息设置<br>
-玩家雷达"cheer"替换<br>
-Cheersound.vsnd*15<br>
-Cooldown<br>
-CenterMessage<br>
-player radio:"cheer" replace<br>
+* 1.本地汉化文件.yml<br>
+* 2.笑声文件.vsnd*15<br>
+* 3.冷却时间设置<br>
+* 4.中心提示信息设置<br>
+* 5.玩家雷达"cheer"替换<br>
+* 1.Localizer lang.yml<br>
+* 2.Cheersound.vsnd*15<br>
+* 3.Cooldown<br>
+* 4.CenterMessage<br>
+* 5.player radio:"cheer" replace<br>
 
 # 前置<br>Dependencies<br>
 [**MetaMod**](https://cs2.poggu.me/metamod/installation/)
