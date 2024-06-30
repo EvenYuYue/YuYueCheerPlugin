@@ -17,6 +17,8 @@ player radio:"cheer" replace<br>
 
 [**CounterStrikeSharp** *(v215 and up)*](https://github.com/roflmuffin/CounterStrikeSharp/releases)
 
+[**MultiAddonManager**](https://github.com/Source2ZE/MultiAddonManager/releases)
+
 ## 安装<br>Install
 * 下载插件[最新编译版本](https://github.com/EvenYuYue/YuYueCheerPlugin/releases),
 
@@ -36,6 +38,14 @@ player radio:"cheer" replace<br>
     <li><strong>语音电台:</strong> 默认按 <code>Z</code> 然后按下 <code>3</code> 即可播放嘲笑语音.</li>
 </ul>
 
+> [!提示NOTE]
+> 下载模组加载插件 https://github.com/Source2ZE/MultiAddonManager                                                                                                                             
+> https://steamcommunity.com/sharedfiles/filedetails/?id=3252876924                                                                                                                           
+> mm_extra_addons 3252876924     
+> Download https://github.com/Source2ZE/MultiAddonManager                                                                                                                             
+> https://steamcommunity.com/sharedfiles/filedetails/?id=3252876924                                                                                                                           
+> mm_extra_addons 3252876924                                                                                                                        
+> 
 <h2>Credits</h2>
 <p>Thanks to:
 <ul>
