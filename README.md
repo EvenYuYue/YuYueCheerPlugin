@@ -1,1 +1,43 @@
-# YuYueCheerPlugin
+# 渔乐大笑插件<br>YuYueCheerPlugin
+渔乐大笑插件是简单的嘲讽插件,源于CS起源的Cheer插件,现CS2基于CounterStrikeSharp编译.<br>
+YuYueCheerPlugin is a "simple" play sound effects plugin. CS2 Cheer plugin using CounterStrikeSharp.
+
+# 内容<br>Features
+笑声文件.vsnd15个<br>
+冷却时间设置<br>
+中心提示信息设置<br>
+玩家雷达"cheer"替换<br>
+Cheersound.vsnd*15<br>
+Cooldown<br>
+CenterMessage<br>
+player radio:"cheer" replace<br>
+
+# 前置<br>Dependencies<br>
+[**MetaMod**](https://cs2.poggu.me/metamod/installation/)
+
+[**CounterStrikeSharp** *(v215 and up)*](https://github.com/roflmuffin/CounterStrikeSharp/releases)
+
+## 安装<br>Install
+* 下载插件[最新编译版本](https://github.com/EvenYuYue/YuYueCheerPlugin/releases),
+
+* 解压缩到你的服务端 `game/csgo/` 位置,
+
+* :exclamation: 查看 `game/csgo/addons/ccounterstrikesharp/configs/plugins/YuYueCheerPlugin/YuYueCheerPlugin.json` 设置插件基础设置.
+* 
+* Download the [latest release](https://github.com/EvenYuYue/YuYueCheerPlugin/releases),
+
+* Unzip into your servers `game/csgo/` directory,
+
+* :exclamation: See `game/csgo/addons/ccounterstrikesharp/configs/plugins/YuYueCheerPlugin/YuYueCheerPlugin.json` for basic plugin configuration.
+
+## 使用方法<br>Usage
+<ul>
+    <li><strong>指令:</strong> 直接在聊天框输入 <code>!cheer</code>.</li>
+    <li><strong>语音电台:</strong> 默认按 <code>Z</code> 然后按下 <code>3</code> 即可播放嘲笑语音.</li>
+</ul>
+
+<h2>Credits</h2>
+<p>Thanks to:
+<ul>
+<li>GianniKoch for Special Thanks </li>
+<li>onemore for Inspiration support.</li></ul></p>
