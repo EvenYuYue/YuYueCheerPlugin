@@ -1,10 +1,12 @@
-﻿using CounterStrikeSharp.API;
+using CounterStrikeSharp.API;
 using CounterStrikeSharp.API.Core;
 using CounterStrikeSharp.API.Core.Attributes;
 using CounterStrikeSharp.API.Modules.Entities;
 using CounterStrikeSharp.API.Modules.Utils;
 using static System.Net.Mime.MediaTypeNames;
 using System.Numerics;
+using Microsoft.Extensions.Localization;
+using CounterStrikeSharp.API.Core.Translations;
 
 namespace YuYueCheerPlugin;
 
@@ -19,13 +21,18 @@ public class YuYueCheerPlugin : BasePlugin, IPluginConfig<YuYueCheerPluginConfig
 
     private Dictionary<CCSPlayerController, DateTimeOffset> LastCheer { get; } = new();
 
+    public readonly IStringLocalizer<YuYueCheerPlugin> _localizer;
+    public YuYueCheerPlugin(IStringLocalizer<YuYueCheerPlugin> localizer)
+    {
+        _localizer = localizer;
+    }
     public override void Load(bool hotReload)
     {
         AddCommand("cheer", "Cheer!", (commandPlayer, info) =>
         {
             if (Config.CheerSounds.Count == 0)
             {
-                info.ReplyToCommand("{ChatColors.Grey}[系统] 笑声文件未设置!");
+                info.ReplyToCommand(Localizer["lang.plugin.didnotload"]);
                 return;
             }
 
@@ -34,8 +41,8 @@ public class YuYueCheerPlugin : BasePlugin, IPluginConfig<YuYueCheerPluginConfig
                 if (LastCheer.TryGetValue(commandPlayer, out var lastCheer) &&
                     DateTimeOffset.Now - lastCheer < TimeSpan.FromSeconds(Config.CooldownSeconds))
                 {
-                    info.ReplyToCommand($" {ChatColors.Grey}[系统] 冷却时间{Config.CooldownSeconds}秒!");
-                    commandPlayer.PrintToCenter($" {ChatColors.Grey}冷却中,请稍后重试!");
+                    info.ReplyToCommand($"{Localizer["lang.chat.cooldown", (Config.CooldownSeconds)]}");
+                    commandPlayer.PrintToCenter(Localizer["lang.center.cooldown"]);
                     return;
                 }
 
@@ -54,7 +61,7 @@ public class YuYueCheerPlugin : BasePlugin, IPluginConfig<YuYueCheerPluginConfig
                 CsTeam.Terrorist => ChatColors.Red,
                 _ => ChatColors.White
             };
-            Server.PrintToChatAll($" {ChatColors.Grey}[系统] {teamColor}{commandPlayer?.PlayerName ?? "Console"}{ChatColors.Grey} 笑嘻了!!!");
+            Server.PrintToChatAll($"{Localizer["lang.chatall.cheer", (commandPlayer?.PlayerName ?? "Console"), (teamColor)]}");
         });
     }
 
