@@ -54,3 +54,16 @@ player radio:"cheer" replace<br>
 <ul>
 <li>GianniKoch for Special Thanks </li>
 <li>onemore for Inspiration support.</li></ul></p>
+        
+## 我的伺服器<br>my server
+<ul>
+    <li><strong>娱乐对抗MiniGames:</strong> <code>cs2.yuyuecraft.cn:27025</code></li>
+    <li><strong>娱乐闯关Course:   </strong> <code>cs2.yuyuecraft.cn:27016</code></li>
+    <li><strong>僵尸逃跑ZE:   </strong> <code>cs2.yuyuecraft.cn:27017</code></li>
+    <li><strong>刀战Knife:   </strong> <code>cs2.yuyuecraft.cn:27018</code></li>
+    <li><strong>狙击AWP:   </strong> <code>cs2.yuyuecraft.cn:27019</code></li>
+    <li><strong>攀岩KZ:   </strong> <code>cs2.yuyuecraft.cn:27020</code></li>
+    <li><strong>连跳Bhop:   </strong> <code>cs2.yuyuecraft.cn:27021</code></li>
+    <li><strong>滑翔Surf:   </strong> <code>cs2.yuyuecraft.cn:27022</code></li>
+    <li><strong>身法追逐HNS:   </strong> <code>cs2.yuyuecraft.cn:27023</code></li>
+</ul>
